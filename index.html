@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SAVORÉ | Fine Dining</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================
+     NAVBAR
+========================================= -->
+
+<nav class="navbar navbar-expand-lg fixed-top">
+
+    <div class="container">
+
+        <a class="navbar-brand" href="#">
+            SAVORÉ
+        </a>
+
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav mx-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">
+                        Menu
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">
+                        Gallery
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <a href="#reservation"
+               class="btn reservation-btn">
+
+                Reserve Table
+
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- =========================================
+     HERO
+========================================= -->
+
+<section class="hero">
+
+    <div class="container">
+
+        <div class="row align-items-center min-vh-100">
+
+            <div class="col-lg-7 hero-content">
+
+                <p class="hero-subtitle">
+                    WELCOME TO SAVORÉ
+                </p>
+
+
+                <h1>
+                    Where Every
+                    <span>Bite</span>
+                    Tells a Story.
+                </h1>
+
+
+                <p class="hero-description">
+
+                    Experience thoughtfully crafted dishes,
+                    warm hospitality and unforgettable flavors
+                    in the heart of the city.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#menu"
+                       class="btn btn-main">
+
+                        Explore Menu
+
+                        <i class="bi bi-arrow-right"></i>
+
+                    </a>
+
+
+                    <a href="#reservation"
+                       class="btn btn-outline-light">
+
+                        Reserve a Table
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     ABOUT
+========================================= -->
+
+<section class="about py-5" id="about">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+
+            <div class="col-lg-6">
+
+                <div class="about-image">
+
+                    <img
+                        src="static/img/about.jpg"
+                        alt="Restaurant interior">
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6">
+
+                <div class="section-heading">
+
+                    <p>OUR STORY</p>
+
+                    <h2>
+                        More Than Just
+                        <span>Food.</span>
+                    </h2>
+
+                </div>
+
+
+                <p class="about-text">
+
+                    At SAVORÉ, we believe dining should be an
+                    experience. Our kitchen brings together
+                    fresh ingredients, creative techniques and
+                    timeless recipes to create food worth
+                    remembering.
+
+                </p>
+
+
+                <p class="about-text">
+
+                    Every plate is prepared with passion,
+                    from locally sourced ingredients to the
+                    final presentation.
+
+                </p>
+
+
+                <div class="about-features">
+
+                    <div>
+
+                        <i class="bi bi-award"></i>
+
+                        <span>
+                            Premium Quality
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="bi bi-heart"></i>
+
+                        <span>
+                            Made With Love
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="bi bi-leaf"></i>
+
+                        <span>
+                            Fresh Ingredients
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     MENU
+========================================= -->
+
+<section class="menu-section py-5" id="menu">
+
+    <div class="container">
+
+
+        <div class="section-heading text-center">
+
+            <p>DISCOVER</p>
+
+            <h2>
+                Our <span>Menu</span>
+            </h2>
+
+            <span>
+                Crafted with passion, served with love.
+            </span>
+
+        </div>
+
+
+
+        <!-- MENU FILTER -->
+
+        <div class="menu-filters text-center my-5">
+
+            <button
+                class="menu-filter active"
+                data-category="all">
+
+                All
+
+            </button>
+
+
+            <button
+                class="menu-filter"
+                data-category="starters">
+
+                Starters
+
+            </button>
+
+
+            <button
+                class="menu-filter"
+                data-category="main">
+
+                Main Course
+
+            </button>
+
+
+            <button
+                class="menu-filter"
+                data-category="desserts">
+
+                Desserts
+
+            </button>
+
+
+            <button
+                class="menu-filter"
+                data-category="drinks">
+
+                Drinks
+
+            </button>
+
+        </div>
+
+
+
+        <!-- MENU ITEMS -->
+
+        <div class="row g-4" id="menu-container">
+
+
+            <!-- ITEM 1 -->
+
+            <div
+                class="col-lg-6 menu-item"
+                data-category="starters">
+
+                <div class="food-card">
+
+                    <img
+                        src="static/img/food1.jpg"
+                        alt="Bruschetta">
+
+                    <div class="food-info">
+
+                        <div>
+
+                            <h4  style="margin-top: 10px;">
+                                Truffle Bruschetta
+                            </h4>
+
+                            <p>
+                                Toasted sourdough,
+                                truffle cream & herbs
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹449
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ITEM 2 -->
+
+            <div
+                class="col-lg-6 menu-item"
+                data-category="starters">
+
+                <div class="food-card">
+
+                    <img
+                        src="static/img/food2.jpg"
+                        alt="Salad">
+
+                    <div class="food-info">
+
+                        <div>
+
+                            <h4  style="margin-top: 10px;">
+                                Burrata Garden
+                            </h4>
+
+                            <p>
+                                Fresh burrata,
+                                tomatoes & basil oil
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹499
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ITEM 3 -->
+
+            <div
+                class="col-lg-6 menu-item"
+                data-category="main">
+
+                <div class="food-card">
+
+                    <img
+                        src="static/img/food3.jpg"
+                        alt="Pasta">
+
+                    <div class="food-info">
+
+                        <div>
+
+                            <h4  style="margin-top: 10px;">
+                                Creamy Truffle Pasta
+                            </h4>
+
+                            <p>
+                                Handmade pasta,
+                                parmesan & black truffle
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹699
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ITEM 4 -->
+
+            <div
+                class="col-lg-6 menu-item"
+                data-category="main">
+
+                <div class="food-card">
+
+                    <img
+                        src="static/img/food1.jpg"
+                        alt="Steak">
+
+                    <div class="food-info">
+
+                        <div>
+
+                            <h4  style="margin-top: 10px;">
+                                Grilled Herb Steak
+                            </h4>
+
+                            <p>
+                                Tender grilled steak,
+                                vegetables & sauce
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹899
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ITEM 5 -->
+
+            <div
+                class="col-lg-6 menu-item"
+                data-category="desserts">
+
+                <div class="food-card">
+
+                    <img
+                        src="static/img/food2.jpg"
+                        alt="Chocolate dessert">
+
+                    <div class="food-info">
+
+                        <div>
+
+                            <h4  style="margin-top: 10px;">
+                                Dark Chocolate Tart
+                            </h4>
+
+                            <p>
+                                Belgian chocolate,
+                                vanilla cream & berries
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹399
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ITEM 6 -->
+
+            <div
+                class="col-lg-6 menu-item"
+                data-category="drinks">
+
+                <div class="food-card">
+
+                    <img
+                        src="static/img/food3.jpg"
+                        alt="Signature drink">
+
+                    <div class="food-info">
+
+                        <div>
+
+                            <h4 style="margin-top: 10px;">
+                                Savoré Signature
+                            </h4>
+
+                            <p>
+                                Fresh citrus,
+                                herbs & sparkling water
+                            </p>
+
+                        </div>
+
+                        <strong>
+                            ₹299
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     SPECIAL OFFER
+========================================= -->
+
+<section class="special">
+
+    <div class="container">
+
+        <div class="special-content text-center">
+
+            <p>
+                CHEF'S SPECIAL
+            </p>
+
+            <h2>
+                An Evening Worth
+                Remembering.
+            </h2>
+
+            <span>
+                Enjoy our exclusive chef's tasting menu
+                for two.
+            </span>
+
+            <br>
+
+            <a href="#reservation"
+               class="btn btn-light mt-4">
+
+                Book Your Experience
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     GALLERY
+========================================= -->
+
+<section class="gallery py-5" id="gallery">
+
+    <div class="container">
+
+        <div class="section-heading text-center">
+
+            <p>OUR SPACE</p>
+
+            <h2>
+                A Feast for the <span>Eyes.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="row g-3 mt-4">
+
+            <div class="col-md-4">
+
+                <div class="gallery-image">
+
+                    <img
+                        src="static/img/gallery1.jpg"
+                        alt="Restaurant" width="400px"  height="400px">
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="gallery-image">
+
+                    <img
+                        src="static/img/gallery.jpg"
+                        alt="Restaurant food">
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="gallery-image">
+
+                    <img
+                        src="static/img/gallery3.avif"
+                        alt="Restaurant dining">
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6">
+
+                <div class="gallery-image large">
+
+                    <img
+                        src="static/img/gallery4.avif"
+                        alt="Restaurant interior">
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6">
+
+                <div class="gallery-image large">
+
+                    <img
+                        src="static/img/gallery5.avif"
+                        alt="Restaurant dish">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     REVIEWS
+========================================= -->
+
+<section class="reviews py-5">
+
+    <div class="container">
+
+        <div class="section-heading text-center">
+
+            <p>GUESTS SAY</p>
+
+            <h2>
+                What Our Guests <span>Think.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="row g-4 mt-4">
+
+
+            <div class="col-md-4">
+
+                <div class="review-card">
+
+                    <div class="stars">
+
+                        ★★★★★
+
+                    </div>
+
+                    <p>
+
+                        "Beautiful atmosphere and
+                        absolutely amazing food.
+                        Every dish felt carefully prepared."
+
+                    </p>
+
+                    <h5>
+                        — Arjun M.
+                    </h5>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="review-card">
+
+                    <div class="stars">
+
+                        ★★★★★
+
+                    </div>
+
+                    <p>
+
+                        "One of the best dining experiences
+                        I've had. The staff were wonderful
+                        and the food was exceptional."
+
+                    </p>
+
+                    <h5>
+                        — Sarah K.
+                    </h5>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="review-card">
+
+                    <div class="stars">
+
+                        ★★★★★
+
+                    </div>
+
+                    <p>
+
+                        "Perfect place for a special evening.
+                        The ambience, presentation and
+                        flavors were excellent."
+
+                    </p>
+
+                    <h5>
+                        — Rahul P.
+                    </h5>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     RESERVATION
+========================================= -->
+
+<section class="reservation py-5" id="reservation">
+
+    <div class="container">
+
+        <div class="reservation-box">
+
+            <div class="section-heading text-center">
+
+                <p>BOOK A TABLE</p>
+
+                <h2>
+                    Make a <span>Reservation.</span>
+                </h2>
+
+                <span>
+                    Reserve your table and let us
+                    take care of the rest.
+                </span>
+
+            </div>
+
+
+            <form id="reservationForm"
+                  class="reservation-form mt-5">
+
+
+                <div class="row g-4">
+
+                    <div class="col-md-6">
+
+                        <label>
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="name"
+                            placeholder="Enter your name"
+                            required>
+
+                    </div>
+
+
+                    <div class="col-md-6">
+
+                        <label>
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            placeholder="Enter your email"
+                            required>
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+                        <label>
+                            Date
+                        </label>
+
+                        <input
+                            type="date"
+                            class="form-control"
+                            id="date"
+                            required>
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+                        <label>
+                            Time
+                        </label>
+
+                        <select
+                            class="form-select"
+                            id="time"
+                            required>
+
+                            <option value="">
+                                Select time
+                            </option>
+
+                            <option>
+                                6:00 PM
+                            </option>
+
+                            <option>
+                                7:00 PM
+                            </option>
+
+                            <option>
+                                8:00 PM
+                            </option>
+
+                            <option>
+                                9:00 PM
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+                        <label>
+                            Guests
+                        </label>
+
+                        <select
+                            class="form-select"
+                            id="guests"
+                            required>
+
+                            <option value="">
+                                Number of guests
+                            </option>
+
+                            <option>
+                                1 Guest
+                            </option>
+
+                            <option>
+                                2 Guests
+                            </option>
+
+                            <option>
+                                3 Guests
+                            </option>
+
+                            <option>
+                                4 Guests
+                            </option>
+
+                            <option>
+                                5+ Guests
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="col-12 text-center">
+
+                        <button
+                            type="submit"
+                            class="btn btn-main">
+
+                            Confirm Reservation
+
+                            <i class="bi bi-arrow-right"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     CONTACT
+========================================= -->
+
+<section class="contact py-5" id="contact">
+
+    <div class="container">
+
+        <div class="row g-5">
+
+
+            <div class="col-lg-5 contact-box">
+
+                <div class="contact-info">
+
+                    <div>
+
+                        <i class="bi bi-geo-alt"></i>
+
+                        <p>
+                            24 Gourmet Street,<br>
+                            Kochi, Kerala
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="bi bi-telephone"></i>
+
+                        <p>
+                            +91 98765 43210
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="bi bi-envelope"></i>
+
+                        <p>
+                            hello@savore.com
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="bi bi-clock"></i>
+
+                        <p>
+                            Mon – Sun<br>
+                            11:00 AM – 11:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+        
+            
+            </div>
+
+
+            <div class="col-lg-7 ">
+
+                <div class=" mappp ">
+
+                    <h4>
+                        SAVORÉ
+                    </h4>
+
+                    <p>
+                        Kochi, Kerala
+                    </p>
+
+                </div>
+
+                <div class="section-heading mt-5">
+
+                    <p>GET IN TOUCH</p>
+
+                    <h2>
+                        Visit <span>SAVORÉ.</span>
+                    </h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="row g-4">
+
+
+            <div class="col-lg-5">
+
+                <h3>
+                    SAVORÉ
+                </h3>
+
+                <p>
+                    Thoughtfully prepared food,
+                    unforgettable experiences.
+                </p>
+
+            </div>
+
+
+            <div class="col-md-3">
+
+                <h5>
+                    Explore
+                </h5>
+
+                <a href="#">
+                    Home
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#menu">
+                    Menu
+                </a>
+
+                <a href="#gallery">
+                    Gallery
+                </a>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <h5>
+                    Follow Us
+                </h5>
+
+                <div class="social-icons">
+
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <hr>
+
+
+        <div class="text-center">
+
+            <p class="copyright">
+                © 2026 SAVORÉ. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- Bootstrap JS -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+
+<!-- Custom JS -->
+
+<script src="static/js/script.js"></script>
+
+
+</body>
+
+</html>
